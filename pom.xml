@@ -148,6 +148,11 @@
 			<artifactId>jackson-jaxrs</artifactId>
 			<version>1.9.4</version>
 		</dependency>
+	        <dependency>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-compiler-plugin</artifactId>
+                        <version>3.2</version>
+                </dependency>
 
 		<!-- XML -->
 		<dependency>
@@ -156,16 +161,7 @@
 			<version>1.0</version>
 		</dependency>
 
-<dependencies>
-    <dependency>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-compiler-plugin</artifactId>
-        <version>3.2</version>
-    </dependency>
-	    <dependencies>
-       
- <build>
-    <plugins>
+               
         <plugin>
             <groupId>org.sonarsource.scanner.maven</groupId>
             <artifactId>sonar-maven-plugin</artifactId>
@@ -175,12 +171,7 @@
                 <target>1.8</target>
             </configuration>
         </plugin>
-		  </plugin>
-                <configuration>
-                    <source>1.8</source>
-                    <target>1.8</target>
-                </configuration>
-            </plugin>
+		  
             <plugin>
                 <groupId>org.eclipse.jetty</groupId>
                 <artifactId>jetty-maven-plugin</artifactId>

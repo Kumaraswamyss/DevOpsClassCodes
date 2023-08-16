@@ -14,6 +14,27 @@
         <vaadin.version>8.0.0.alpha2</vaadin.version>
         <vaadin.plugin.version>${vaadin.version}</vaadin.plugin.version>
     </properties>
+<properties>
+    <!-- Other properties -->
+    
+    <!-- SonarQube properties -->
+    <sonar.host.url>http://172.19.56.170:9000</sonar.host.url>
+    <sonar.login>squ_6b0f721cc75fd21ffd00fd45f0d8c129e60cc4b6</sonar.login>
+</properties>
+
+<build>
+    <plugins>
+        <!-- Other plugins -->
+        
+        <plugin>
+            <groupId>org.sonarsource.scanner.maven</groupId>
+            <artifactId>sonar-maven-plugin</artifactId>
+            <version>3.9.0.2155</version> <!-- Adjust version as needed -->
+        </plugin>
+    </plugins>
+</build>
+
+	
 
     <repositories>
         <repository>

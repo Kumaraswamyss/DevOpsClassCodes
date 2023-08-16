@@ -178,8 +178,6 @@
         <!-- Other plugins -->
     </plugins>
 </build>
-		    <project>
-
 		
                 <configuration>
                     <source>1.8</source>
@@ -191,6 +189,8 @@
                 <artifactId>jetty-maven-plugin</artifactId>
                 <version>9.2.3.v20140905</version>
             </plugin>
+
+		    </project>
 			
 						<plugin>
 				<groupId>org.apache.maven.plugins</groupId>

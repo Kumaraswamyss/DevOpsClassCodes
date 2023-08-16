@@ -13,14 +13,10 @@
         <failOnMissingWebXml>false</failOnMissingWebXml>
         <vaadin.version>8.0.0.alpha2</vaadin.version>
         <vaadin.plugin.version>${vaadin.version}</vaadin.plugin.version>
+	<sonar.host.url>http://172.19.56.170:9000</sonar.host.url>
+        <sonar.login>squ_6b0f721cc75fd21ffd00fd45f0d8c129e60cc4b6</sonar.login>
     </properties>
-<properties>
-    <!-- Other properties -->
-    
-    <!-- SonarQube properties -->
-    <sonar.host.url>http://172.19.56.170:9000</sonar.host.url>
-    <sonar.login>squ_6b0f721cc75fd21ffd00fd45f0d8c129e60cc4b6</sonar.login>
-</properties>
+
 
 <build>
     <plugins>

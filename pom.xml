@@ -55,7 +55,7 @@
         </pluginRepository>
     </pluginRepositories>
 
-
+<build>
     <dependencies>
         <dependency>
             <groupId>com.vaadin</groupId>
@@ -161,7 +161,7 @@
 			<version>1.0</version>
 		</dependency>
 
-                 </build>
+          <build>      
         <plugin>
             <groupId>org.sonarsource.scanner.maven</groupId>
             <artifactId>sonar-maven-plugin</artifactId>

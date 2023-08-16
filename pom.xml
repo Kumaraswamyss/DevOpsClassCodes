@@ -156,18 +156,16 @@
 			<version>1.0</version>
 		</dependency>
 
-	    <project>
-<dependencies>
+
+	    <dependencies>
     <dependency>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-compiler-plugin</artifactId>
         <version>3.2</version>
     </dependency>
     
-    <!-- Other dependencies -->
-</dependencies>
-
-<build>
+  </plugin>
+		    <build>
     <plugins>
         <plugin>
             <groupId>org.sonarsource.scanner.maven</groupId>
@@ -178,7 +176,7 @@
         <!-- Other plugins -->
     </plugins>
 </build>
-		
+		  </plugin>
                 <configuration>
                     <source>1.8</source>
                     <target>1.8</target>
@@ -190,8 +188,7 @@
                 <version>9.2.3.v20140905</version>
             </plugin>
 
-		    </project>
-			
+				
 						<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-surefire-plugin</artifactId>

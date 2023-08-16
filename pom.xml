@@ -156,6 +156,7 @@
 			<version>1.0</version>
 		</dependency>
 
+	    <project>
 <dependencies>
     <dependency>
         <groupId>org.apache.maven.plugins</groupId>
@@ -177,6 +178,7 @@
         <!-- Other plugins -->
     </plugins>
 </build>
+		    <project>
 
 		
                 <configuration>
